@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flexbox Section */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Add a selector for the row class */
+.row {
+  display: flex; /* Make all children of .row flex items */
+}
+
+/* Remove the float: left inside [class*='col-'] */
+[class*='col-'] {
+  /* float: left; */ /* Remove this line */
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* width: 100%; */ /* Optionally, you can remove this line if you want the columns to take the available width */
+}
+
+/* Header Section */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Navigation Section */
+.navbar {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+/* Main Content Section */
+.main-content {
+  padding: 20px;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
