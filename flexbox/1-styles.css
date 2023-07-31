@@ -1,0 +1,202 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.navbar {
+  background-color: #444;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+/* Section styles */
+section {
+  padding: 2rem;
+}
+
+/* Services Section */
+.section-services {
+  background-color: #f9f9f9;
+}
+
+.section-services h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-services .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-services .row {
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.section-services .col-4 {
+  flex: 1 0 25%;
+  background-color: #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Works Section */
+.section-works {
+  background-color: #f0f0f0;
+}
+
+.section-works h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-works .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-works .row {
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.section-works .col-3 {
+  flex: 1 0 25%;
+}
+
+.section-works img {
+  width: 100%;
+}
+
+/* About Section */
+.section-about-us {
+  background-color: #e0e0e0;
+}
+
+.section-about-us h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-about-us .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-about-us .row {
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.section-about-us .col-6 {
+  flex: 1 0 50%;
+}
+
+/* Latest News Section */
+.section-latest-news {
+  background-color: #d0d0d0;
+}
+
+.section-latest-news h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-latest-news .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-latest-news .row {
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.section-latest-news .col-4 {
+  flex: 1 0 25%;
+  background-color: #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Testimonial Section */
+.section-testimonial {
+  background-color: #c0c0c0;
+}
+
+.section-testimonial h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-testimonial .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-testimonial .row {
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.section-testimonial .col-12 {
+  flex: 1 0 100%;
+  background-color: #aaa;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Contact Section */
+.section-contact {
+  background-color: #b0b0b0;
+}
+
+.section-contact h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-contact .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-contact .row {
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.section-contact .col-6 {
+  flex: 1 0 50%;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
